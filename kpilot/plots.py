@@ -54,7 +54,7 @@ def plot_indicators(df, grupo_rollout_input: str, metrics_dict: dict, output_pat
     with Image.open(output_path) as img:
         img = img.convert('RGB')
 
-        img.save(f'{output_path.split('.')[0]}.webp', 'WEBP', quality=webpquality)
+        img.save(f"{output_path.split('.')[0]}.webp", "WEBP", quality=webpquality)
 
     # Leer la imagen en bytes y codificarla en base64
     with open('grafico.webp', 'rb') as image_file:
