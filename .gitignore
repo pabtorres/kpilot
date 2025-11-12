@@ -1,0 +1,70 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+.venv/
+venv/
+.env/
+env/
+
+# ---- Build Artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Packaging / Poetry ----
+.poetry/
+.poetry-cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+*.ipynb#
+
+# ---- Data / Outputs ----
+*.csv
+*.xlsx
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+
+# ---- Temporary or Local Files ----
+tmp/
+temp/
+*.tmp
+*.bak
+.DS_Store
+
+# ---- IDE / Editor Files ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Databricks ----
+.dbx/
+.databricks/
+*.dbc
+*.dbx
+notebook-results/
+
+# ---- OS / System ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Optional: ignore secrets ----
+*.env.local
+*.secrets
+secrets.json
+credentials.json
+token.json
